@@ -1,0 +1,29 @@
+{
+  "name": "express-firebase-middleware",
+  "version": "0.1.0",
+  "description": "Express middleware for your Firebase applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonybudianto/express-firebase-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "firebase",
+    "middleware",
+    "auth"
+  ],
+  "author": "Antony Budianto <antonybudianto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonybudianto/express-firebase-middleware/issues"
+  },
+  "homepage": "https://github.com/antonybudianto/express-firebase-middleware#readme",
+  "peerDependencies": {
+    "express": "^4.14.0",
+    "firebase-admin": "^4.0.4"
+  }
+}
