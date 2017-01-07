@@ -1,4 +1,4 @@
-var debug = process.env.APP_DEBUG || true;
+var debug = process.env.APP_DEBUG;
 
 function log() {
     if (!debug) return;
