@@ -2,6 +2,9 @@
 
 Express middleware for your Firebase applications.
 
+[![npm version](https://badge.fury.io/js/express-firebase-middleware.svg)](https://badge.fury.io/js/express-firebase-middleware)
+
+
 ## How to use
 1. Install the packages using npm
     ```sh
