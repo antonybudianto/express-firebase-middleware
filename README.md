@@ -4,14 +4,14 @@ Express middleware for your Firebase applications.
 
 ## How to use
 1. Install the packages using npm
-    ```
+    ```sh
     npm install express firebase-admin express-firebase-middleware
     ```
 
    Both `express` and `firebase-admin` are peerDependencies.
 
 2. Require it in your express routes
-    ```
+    ```js
     var firebaseMiddleware = require('express-firebase-middleware');
 
     router.use('/api', firebaseMiddleware.auth);
@@ -25,7 +25,7 @@ Express middleware for your Firebase applications.
     The client can get the token from their client SDK (Web, Android, iOS Firebase SDK)
 
 4. When requesting, and token is valid, you can get the `user` object from response
-    ```
+    ```js
     router.get('/api/hello', (req, res) => {
         res.json({
             message: `You're logged in as ${res.locals.user.email} with Firebase UID: ${res.locals.user.uid}`
