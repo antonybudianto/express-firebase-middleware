@@ -4,6 +4,11 @@ Express middleware for your Firebase applications.
 
 [![npm version](https://badge.fury.io/js/express-firebase-middleware.svg)](https://badge.fury.io/js/express-firebase-middleware)
 
+> Starting new express firebase project? try out [Express Firebase](https://github.com/antonybudianto/express-firebase) starter
+
+## Minimum requirements
+- Node 6 or later
+- npm 3 or later
 
 ## How to use
 1. Install the packages using npm
