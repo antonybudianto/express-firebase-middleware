@@ -1,9 +1,9 @@
-var admin = require.main.require('firebase-admin');
+const admin = require.main.require('firebase-admin');
 
-var logger = require('./util/logger');
+const logger = require('./util/logger');
 
 function firebaseAuthMiddleware(req, res, next) {
-    let authorization = req.header('Authorization');
+    const authorization = req.header('Authorization');
     if (authorization) {
         let token = authorization.split(' ');
         admin.auth().verifyIdToken(token[1])

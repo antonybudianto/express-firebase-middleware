@@ -1,4 +1,4 @@
-var auth = require('./src/auth.middleware');
+const auth = require('./src/auth.middleware');
 
 module.exports = {
     auth
