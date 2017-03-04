@@ -1,6 +1,6 @@
 {
   "name": "express-firebase-middleware",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Express middleware for your Firebase applications",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/antonybudianto/express-firebase-middleware#readme",
   "peerDependencies": {
-    "express": "^4.14.0",
-    "firebase-admin": "^4.0.4"
+    "express": "^4.15.0",
+    "firebase-admin": "^4.1.2"
   }
 }
