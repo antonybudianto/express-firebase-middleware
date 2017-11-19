@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "babel src -d lib --ignore spec.js",
+    "release": "np",
     "test": "exit 0"
   },
   "repository": {
