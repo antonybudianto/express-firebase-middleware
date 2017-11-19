@@ -1,5 +1,5 @@
-const auth = require('./auth.middleware');
+import auth from './auth.middleware';
 
-module.exports = {
+export {
     auth
-};
+}
