@@ -9,6 +9,7 @@ Express middleware for your Firebase applications.
 ## Minimum requirements
 - Node 6 or later
 - npm 3 or later
+- Firebase account
 
 ## How to use
 1. Install the packages using npm
@@ -27,10 +28,10 @@ Express middleware for your Firebase applications.
 
 3. Now make sure the client's requests have Authorization header like
     ```
-    Authorization Bearer <your-client-token>
+    Authorization: Bearer <your-client-token>
     ```
 
-    The client can get the token from their client SDK (Web, Android, iOS Firebase SDK)
+    The client can [get the token](https://firebase.google.com/docs/auth/admin/verify-id-tokens) from their client SDK (Web, Android, iOS Firebase SDK)
 
 4. When requesting, and token is valid, you can get the `user` object from response
     ```js
