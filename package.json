@@ -10,7 +10,7 @@
     "build": "babel src -d lib --ignore spec.js",
     "prerelease": "npm run build",
     "release": "np",
-    "release:next": "np --tag=next",
+    "release:next": "npm run release -- --tag=next --any-branch",
     "test": "exit 0"
   },
   "repository": {
