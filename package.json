@@ -1,6 +1,6 @@
 {
   "name": "express-firebase-middleware",
-  "version": "3.0.0-0",
+  "version": "3.0.0-1",
   "description": "Express middleware for your Firebase applications",
   "main": "lib/index.js",
   "files": [
