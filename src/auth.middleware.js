@@ -1,6 +1,6 @@
 import { log } from './util/logger';
 
-const admin = require.main.require('firebase-admin');
+const admin = require('firebase-admin');
 
 export default function firebaseAuthMiddleware(req, res, next) {
     const authorization = req.header('Authorization');
